@@ -1,5 +1,5 @@
 import React from 'react'
-
+//Estrutura de um componente
 export default function Cabeçalho() {
   return (
     <>
