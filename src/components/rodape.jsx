@@ -7,7 +7,7 @@ export default function Rodape(props) {
         
       <ul>
           {props.listaProps.map( (li,index)=>{
-            createElement('li', key={index}, li);
+            createElement('li', {key:index}, li);
               return li;
       })}
       </ul>
@@ -17,4 +17,3 @@ export default function Rodape(props) {
     </>
   );
 }
-  
